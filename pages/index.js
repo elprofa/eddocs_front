@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Bouton from '../components/Atomes/Bouton'
 
 import { theme } from '../theme'
 
@@ -9,7 +10,7 @@ export default function Home() {
         <title>eddocs</title>
       </Head>
       <main className="main" >
-          eddocs
+         <Bouton />
       </main>
 
     </div>
